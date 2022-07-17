@@ -42,5 +42,3 @@ function newGame(){
     scoreGuest.textContent=scoreG;
     scoreHome.textContent=scoreH;
 }
-
-if 
