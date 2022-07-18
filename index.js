@@ -5,36 +5,15 @@ let scoreHome =document.getElementById("Home-sc")
 let scoreGuest =document.getElementById("Guest-sc")
 
 
-function addOneH(){
-    scoreH+=1;
+function addToHome(amount) {
+    scoreH += amount;
     scoreHome.textContent=scoreH;
 }
 
-function addTwoH(){
-    scoreH+=2;
-    scoreHome.textContent=scoreH;
-}
-
-function addThreeH(){
-    scoreH+=3;
-    scoreHome.textContent=scoreH;
-}
-
-function addOneG(){
-    scoreG+=1;
+function addToGuest(amount) {
+    scoreG += amount;
     scoreGuest.textContent=scoreG;
 }
-
-function addTwoG(){
-    scoreG+=2;
-    scoreGuest.textContent=scoreG;
-}
-
-function addThreeG(){
-    scoreG+=3;
-    scoreGuest.textContent=scoreG;
-}
-
 
 function newGame(){
     scoreH =0;
